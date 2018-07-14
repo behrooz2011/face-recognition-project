@@ -81,7 +81,7 @@ onName = (event)=>{
     
      
       
-      fetch('http://localhost:3001/register',{
+      fetch('https://secure-cove-98475.herokuapp.com/register',{
        method:'post',
         headers:{'Content-Type':'application/json','Accept': 'application/json'},
         body:JSON.stringify({

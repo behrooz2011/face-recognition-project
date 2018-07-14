@@ -140,7 +140,7 @@ onSubmit=()=>{
   /* bad az hazfe taabe e predict va app.models,
   dastoore payin ra ezafe karim. */
 
-  fetch('http://localhost:3001/imageurl',{
+  fetch('https://secure-cove-98475.herokuapp.com/imageurl',{
     method:'post',
     headers:{'Content-Type':'application/json'},
     body:JSON.stringify({
@@ -172,7 +172,7 @@ onSubmit=()=>{
 
 
 onSignin=()=>{
-  this.setState({route:'home'})
+  this.setState({route:'/'})
 }
 
 onSignout=()=>{
